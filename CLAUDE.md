@@ -1,0 +1,2 @@
+@AGENTS.md
+@ZAD.md
