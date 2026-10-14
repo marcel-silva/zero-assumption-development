@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+<title id="title">ZAD — Zero-Assumption Development</title>
+<desc id="desc">Because your first idea might be the wrong one. Question first. Then build with evidence.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#101a2c"/><stop offset="1" stop-color="#090f1c"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#66b7ff"/><stop offset="1" stop-color="#6fe4c1"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#254c6d" stop-opacity=".52"/><stop offset="1" stop-color="#254c6d" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#8aa4c5" opacity=".14"/></pattern>
+</defs>
+<rect width="1200" height="460" rx="18" fill="url(#bg)"/>
+<rect x="790" y="0" width="410" height="460" rx="18" fill="url(#grid)"/>
+<ellipse cx="1040" cy="225" rx="290" ry="260" fill="url(#glow)"/>
+<rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+  <text x="56" y="76" fill="#f4f8ff" font-size="34" font-weight="800" letter-spacing="2">ZAD</text>
+  <path d="M152 49v31" stroke="#3b506a"/>
+  <text x="173" y="72" fill="#a8bed7" font-size="16" font-weight="600" letter-spacing="2">ZERO-ASSUMPTION DEVELOPMENT</text>
+  <text x="56" y="171" fill="#f4f8ff" font-size="55" font-weight="700" letter-spacing="-1.7">Because your first idea</text>
+  <text x="56" y="239" fill="#6fe4c1" font-size="55" font-weight="700" letter-spacing="-1.7">might be the wrong one.</text>
+  <text x="58" y="302" fill="#c1cfe1" font-size="23">Question first. Then build with evidence.</text>
+  <path d="M57 359h671" stroke="#2b3e55"/>
+  <circle cx="63" cy="399" r="4" fill="#66b7ff"/>
+  <text x="80" y="404" fill="#a8bed7" font-size="14" letter-spacing="1.8">INQUIRY</text>
+  <circle cx="224" cy="399" r="4" fill="#6fe4c1"/>
+  <text x="241" y="404" fill="#a8bed7" font-size="14" letter-spacing="1.8">EVIDENCE</text>
+  <circle cx="397" cy="399" r="4" fill="#8bafff"/>
+  <text x="414" y="404" fill="#a8bed7" font-size="14" letter-spacing="1.8">CONTROLLED EXECUTION</text>
+</g>
+<g fill="none">
+  <path d="M896 110v58q0 14 14 14h42M1052 274h43q18 0 18 18v66M895 333h49q14 0 14-14v-43" stroke="#385873" stroke-width="2"/>
+  <path d="M1065 125h43" stroke="#31506c" stroke-width="2"/>
+  <rect x="895" y="157" width="180" height="146" rx="27" fill="#122439" stroke="#3a617f" stroke-width="2"/>
+  <path d="M962 199c0-21 45-29 45-4 0 20-23 16-23 35" stroke="url(#accent)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="984" cy="255" r="6" fill="#6fe4c1"/>
+  <circle cx="896" cy="108" r="11" fill="#142c40" stroke="#6fe4c1" stroke-width="2"/>
+  <circle cx="1113" cy="359" r="11" fill="#142c40" stroke="#66b7ff" stroke-width="2"/>
+  <circle cx="895" cy="333" r="8" fill="#142c40" stroke="#66b7ff" stroke-width="2"/>
+  <circle cx="1117" cy="125" r="8" fill="#142c40" stroke="#6fe4c1" stroke-width="2"/>
+</g>
+</svg>
