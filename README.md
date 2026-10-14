@@ -32,6 +32,24 @@ Ask about the problem, establish what supports your answer, and make changes wit
 
 You don't have to investigate everything. Focus on the questions whose answers could change the solution.
 
+## Install ZAD
+
+Install the skill from this repository with the [Skills CLI](https://skills.sh/docs/cli):
+
+```sh
+npx skills add marcel-silva/zero-assumption-development --skill zad
+```
+
+Run it from your project folder and select your coding assistant when prompted. Add `--global` to install at user scope instead.
+
+The [installable skill](skills/zad/SKILL.md) contains the same working agreement as `ZAD.md`, with a bundled [MIT licence](skills/zad/LICENSE). It does not need the rest of this repository.
+
+After installation, ask your assistant:
+
+> Can you use ZAD to investigate this task before choosing a solution, and ask me only about important decisions the available evidence cannot resolve?
+
+Skills are loaded when activated; installation alone does not make ZAD an always-on rule. For every-task use, keep the project instructions described in the [integration guide](docs/TOOL_INTEGRATIONS.md).
+
 ## Try it on one task
 
 1. Copy [ZAD.md](ZAD.md) into your project, preserving existing instructions.
