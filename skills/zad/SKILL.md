@@ -1,10 +1,9 @@
 ---
 name: zad
 description: >-
-  Zero-Assumption Development: investigate the problem before committing to a
-  solution. Use when the developer requests ZAD, wants to challenge assumptions,
-  or needs evidence before an implementation decision. Guide question-first
-  discovery, selective clarification, authorised implementation, and validation.
+  A question-first approach to AI coding. Investigate the problem before choosing
+  a solution, check assumptions against evidence, and verify the changes. Ask the
+  developer only when an important decision needs their input.
 license: MIT
 metadata:
   author: Marcel Silva
@@ -12,6 +11,20 @@ metadata:
 ---
 
 # Zero-Assumption Development — ZAD 1.0.0
+
+**Because your first idea might be the wrong one.**
+
+Start every task assuming you and the AI don’t understand it yet.
+
+When you ask AI to “add caching,” you’ve already chosen a solution. ZAD starts a step earlier:
+
+> Why is this endpoint slow, and what evidence would tell us whether caching is the right fix?
+
+Your coding assistant investigates the code, checks the assumptions, and explains what it finds. Once implementation is authorised, it makes the changes and verifies the result.
+
+It shouldn’t ask you things it can find in the repository. It should ask when an important decision needs your input.
+
+You don’t have to investigate everything. Focus on the questions whose answers could change the solution.
 
 ## Working agreement
 
